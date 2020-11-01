@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class eventControl : MonoBehaviour
 {
+    
     public void startGame(){
         SceneManager.LoadScene("Tutorial");
     }
