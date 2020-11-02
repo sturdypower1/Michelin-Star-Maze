@@ -4,10 +4,18 @@ using UnityEngine;
 
 public class Collectable : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
+    public string itemName;
+    private void OnTriggerEnter(Collider other) {
+        if (other.tag == "player"){
+            GameObject play = other.gameObject;
+            Debug.Log(play.name);
+            Collector col = play.GetComponent<Collector>();
+            if(col != null){
+                col.addItem(itemName);
+                Destroy(this.gameObject);
+            }
+            
+        }
     }
 
     // Update is called once per frame
