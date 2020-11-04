@@ -61,7 +61,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: fc52f53603bda9a2ba20876e1820acb1, type: 2}
+  - {fileID: 2100000, guid: 49da0bc2ee0952a429b3521b55cb4e73, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -109,5 +109,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mesSys: {fileID: 0}
-  requiredApples: 1
-  requiredBananas: 1
+  requiredApples: 7
+  requiredBananas: 7

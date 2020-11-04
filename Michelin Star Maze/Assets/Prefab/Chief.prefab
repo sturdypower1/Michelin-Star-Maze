@@ -71,11 +71,12 @@ MonoBehaviour:
   turnSmoothTime: 0.1
   turnSmoothVelocity: 1
   gravity: -9.81
+  sprintSpeed: 5
   groundCheck: {fileID: 4406734768154768210}
-  groundDistace: 0
+  groundDistace: 0.1
   groundMask:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 256
 --- !u!114 &231478037926609354
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -88,6 +89,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd81ce787f0ae04bdbc482f8040d0464, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  FC: {fileID: 0}
 --- !u!1 &4406734767265429748
 GameObject:
   m_ObjectHideFlags: 0
@@ -148,7 +150,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: dd05aa4faf99712cf9c46e85a956f99d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -229,7 +231,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: dd05aa4faf99712cf9c46e85a956f99d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

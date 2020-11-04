@@ -11,6 +11,7 @@ public class Functionality : MonoBehaviour
     public void BacktoMain ()
     {
         SceneManager.LoadScene("Menu 2");
+        Time.timeScale = 1.0f;
     }
     public void OptionsMenu ()
     {
