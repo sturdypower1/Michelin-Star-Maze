@@ -6,14 +6,14 @@ using UnityEngine.SceneManagement;
 public class Functionality : MonoBehaviour
 {
    public void PlayGame () {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadScene("Tutorial");
     }
     public void BacktoMain ()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene("Menu 2");
     }
     public void OptionsMenu ()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene("Options Menu");
     }
 }

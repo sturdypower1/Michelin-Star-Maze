@@ -11,7 +11,6 @@ public class messageSystem : MonoBehaviour
     Text txt;
     private void Start() {
         txt = gameObject.GetComponent<Text>();
-        displayMessage("hello", 5);
     }
     public void displayMessage(string message, float messageTime = 5f){
         txt.text = message;
