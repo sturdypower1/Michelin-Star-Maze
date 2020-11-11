@@ -5590,6 +5590,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: audioManager
       objectReference: {fileID: 0}
+    - target: {fileID: 2912625776438651438, guid: ac9ef4f25ac123d4abbed4cb747e2b7d, type: 3}
+      propertyPath: sounds.Array.data[2].loop
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2912625776438651438, guid: ac9ef4f25ac123d4abbed4cb747e2b7d, type: 3}
+      propertyPath: sounds.Array.data[3].loop
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2912625776438651438, guid: ac9ef4f25ac123d4abbed4cb747e2b7d, type: 3}
+      propertyPath: sounds.Array.data[4].loop
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2912625776438651439, guid: ac9ef4f25ac123d4abbed4cb747e2b7d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 283.2375
@@ -5805,6 +5817,10 @@ PrefabInstance:
       propertyPath: RB
       value: 
       objectReference: {fileID: 858788844}
+    - target: {fileID: 5288108592296296116, guid: 2e8c3a108e9d498158e51f211c2e8ddc, type: 3}
+      propertyPath: timeLimit
+      value: 120
+      objectReference: {fileID: 0}
     - target: {fileID: 5288108592296296119, guid: 2e8c3a108e9d498158e51f211c2e8ddc, type: 3}
       propertyPath: m_LocalPosition.x
       value: -32.6
