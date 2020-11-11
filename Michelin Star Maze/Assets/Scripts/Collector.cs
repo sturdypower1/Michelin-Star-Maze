@@ -14,7 +14,8 @@ public class Collector : MonoBehaviour
    
 
     public void addItem(string itemName){
-       if(itemName == "apple"){
+        FindObjectOfType<audioManager>().play("collect");
+        if (itemName == "apple"){
            apples++;
            FC.changeApple(apples);
        }

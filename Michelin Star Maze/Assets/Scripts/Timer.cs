@@ -33,6 +33,8 @@ public class Timer : MonoBehaviour
     }
     
     public void stopTimer(){
+        audioManager s = FindObjectOfType<audioManager>();
+        s.play("time");
         isTimerRunning = false;
         timeLeft = 0.0f;
     }

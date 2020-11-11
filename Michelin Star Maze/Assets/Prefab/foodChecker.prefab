@@ -109,5 +109,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mesSys: {fileID: 0}
+  tim: {fileID: 0}
+  RB: {fileID: 0}
   requiredApples: 7
-  requiredBananas: 7
+  requiredChicken: 7
+  requiredBroccoli: 0
+  requiredOil: 0
+  requiredOnion: 0
+  timeLimit: 200
