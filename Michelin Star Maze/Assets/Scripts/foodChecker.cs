@@ -10,7 +10,13 @@ public class foodChecker : MonoBehaviour
     public GameObject RB;
 
     public int requiredApples;
-    public int requiredBananas;
+    public int requiredChicken;
+    public int requiredBroccoli;
+    public int requiredOil;
+    public int requiredOnion;
+
+
+
     public float timeLimit;
 
     private bool gameRunning = true;
@@ -26,7 +32,7 @@ public class foodChecker : MonoBehaviour
             if (other.tag == "player"){
                 GameObject play = other.gameObject;
                 Collector col = play.GetComponent<Collector>();
-                if ((col.getApples() >= requiredApples) && (col.getBananas() >= requiredBananas)){
+                if ((col.getApples() >= requiredApples) && (col.getChicken() >= requiredChicken) && (col.getBroccoli() >= requiredBroccoli) && (col.getOil() >= requiredOil) && (col.getOnion() >= requiredOnion)){
                     mesSys.displayMessage("You Collected all the Items!");
                     tim.stopTimer();
                 }
