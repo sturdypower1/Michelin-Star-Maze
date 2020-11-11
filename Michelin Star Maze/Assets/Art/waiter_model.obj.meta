@@ -3,7 +3,32 @@ guid: 358348ba3fcdb25668e3bbb1a2fc3051
 ModelImporter:
   serializedVersion: 20101
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: body_waiterModelMat
+    second: {fileID: 2100000, guid: 8d384b296d57c964b80fedb25a039076, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: waiterModel_L_armMat
+    second: {fileID: 2100000, guid: a13729aca5f3bbe4e8ca6da52f52f80b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: waiterModel_L_footMat
+    second: {fileID: 2100000, guid: 3d323ac2abaf4ff4f9962002b48a25de, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: waiterModel_R_armMat
+    second: {fileID: 2100000, guid: 926f8be261b0940418c842610cc8ecb6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: waiterModel_R_footMat
+    second: {fileID: 2100000, guid: 11a98c69e4d0c0a4c8cc8192605b7a0d, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0

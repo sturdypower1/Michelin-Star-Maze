@@ -16,6 +16,7 @@ public class Functionality : MonoBehaviour
     {
         SceneManager.LoadScene("Menu 2");
         audioManager s = FindObjectOfType<audioManager>();
+        s.play("backgroundMusic");
         s.stop("backgroundMusic");
         s.unmute("MenuMusic");
         Time.timeScale = 1.0f;

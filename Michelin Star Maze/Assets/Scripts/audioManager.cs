@@ -6,6 +6,7 @@ public class audioManager : MonoBehaviour
     public Sound[] sounds;
     public static audioManager instance;
 
+    private float globalVolume = 1.0f;
 
     private void Awake()
     {
@@ -27,7 +28,7 @@ public class audioManager : MonoBehaviour
             s.source = gameObject.AddComponent<AudioSource>();
             s.source.clip = s.clip;
 
-            s.source.volume = s.volume;
+            s.source.volume = s.volume * globalVolume;
             s.source.pitch = s.pitch;
             s.source.loop = s.loop;
         }
@@ -91,5 +92,14 @@ public class audioManager : MonoBehaviour
             return;
         }
         s.source.mute = false;
+    }
+
+    public void setGlobalVolume(float volume)
+    {
+        globalVolume = volume;
+        foreach (Sound s in sounds)
+        {
+            s.source.volume = s.volume * globalVolume;
+        }
     }
 }
